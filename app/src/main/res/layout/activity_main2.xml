@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.paramitak.uaspbb.Main2Activity"
+    android:background="#398AB9">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FEE440"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_menu_24"
+                app:tint="?attr/colorOnPrimary" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_weight="1"
+                android:text="Mitamart"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="#398AB9"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_login_24"
+                app:tint="?attr/colorOnPrimary" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hello" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Menu"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="#FEE440"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:padding="16dp"
+                        app:cardCornerRadius="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:src="@drawable/plate" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="16dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Food &amp; Drink"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:background="#1C658C"
+                            android:text="Berbagai pilihan makanan dan minuman seperti snacks, appetizer, main dish dan dessert" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:padding="16dp"
+                        app:cardCornerRadius="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:src="@drawable/cafe" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="16dp"
+                        android:background="">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Furniture"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:background="#1C658C"
+                            android:text="Perabotan rumah tangga seperti kitchen set, home furnishing dan garden furniture" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:padding="16dp"
+                        app:cardCornerRadius="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:src="@drawable/baby" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="16dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Mom &amp; Baby"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:background="#1C658C"
+                            android:text="Perlengkapan ibu hamil, bayi dan anak - anak" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:padding="16dp"
+                        app:cardCornerRadius="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:src="@drawable/medicine" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="16dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Beauty &amp; Health"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:background="#1C658C"
+                            android:text="Kebutuhan make-up, skincare, bodycare dan obat kesehatan" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
